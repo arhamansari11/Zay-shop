@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.background-class{
+    background-color: #212934;
+    height:30px;
+}
+.font-class{
+    font-size: 45px;
+    font-weight:bold;
+}
+.background1-class{
+    background-color: #FFFFFF;
+}
+.active>p{
+    font-size: 20px;
+}
+.active>p:hover{
+    color: green;
+}
+.cart>span{
+    font-size: 13px;
+}
+
+.background3-class{
+    background-color:#E9EEF5 ;
+    height:280px ;
+}
+.margin-class>span{
+    margin-top: 10px;
+}
+@media only screen and (min-width:769px) and (max-width:1200px){
+    .media-class>span{
+        font-size: 30px;
+    }
+    .res-class{
+        height: 40px;
+    }
+    .res1-class{
+        height: 60px;
+    }
+    .res2-class{
+        height: 485px;
+    }
+}
+@media only screen and (min-width:530px) and (max-width:768px){
+    .res-class{
+        height: 810px;
+    }
+    .res1-class{
+        height: 70px;
+    }
+    .res2-class{
+        height: 800px;
+    }
+    .re-class{
+        height: 1900px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1200px){
+    .res-class{
+        height: 450px;
+    }
+.re-class{
+    height: 800px;
+}
+.r-class{
+    font-size: 10px;
+}
+}
+@media only screen and (min-width:400px) and (max-width:520px){
+    .re-class{
+        height: 2000px;
+    }
+}
+.hover-class{
+    height: 210px;
+}
+.hover-class>i{
+    font-size: 70px;
+color: #59AB6E;
+}
+.hover-class>p{
+    font-size: 20px;
+}
+.hover-class:hover{
+    background-color: #59AB6E;
+    color: white !important;
+}
+.hover-class>i:hover{
+    color: white;
+}
+@media only screen and (min-width:300px) and (max-width:400px){
+    .background2-class{
+        background-color: #EFEFEF;
+        height: 800px;
+    }
+    .slider-class{
+        width: 270px;
+        margin-left: 20px;
+     
+    }
+}
+@media only screen and (min-width:401px) and (max-width:500px){
+    .background2-class{
+        background-color: #EFEFEF;
+        height: 800px;
+    }
+    .slider-class{
+        width: 350px;
+        margin-left: 30px;
+    }
+}
+@media only screen and (min-width:501px) and (max-width:768px){
+    .background2-class{
+        background-color: #EFEFEF;
+        height: 800px;
+    }
+    .slider-class{
+        width: 400px;
+        margin-left: 70px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+    .slider-class{
+        width: 500px;
+    }
+    .background2-class{
+        background-color: #EFEFEF;
+        height: 850px;
+    }
+}
+@media only screen and (min-width:993px){
+    .background2-class{
+        background-color: #EFEFEF;
+        height: 600px;
+    }
+    .slider-class{
+        width: 500px;
+    }
+}
